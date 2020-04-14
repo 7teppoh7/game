@@ -1,0 +1,77 @@
+::selection {
+   background: transparent;
+}
+
+#score{
+	display: none;
+	font-size: 35px;
+	font-family: cursive;
+}
+
+#start{
+	text-align: center;
+	margin-top: 350px;
+}
+
+#start button{
+	font-size: 25px;
+	height: 80px;
+	width: 240px;
+}
+
+#start button:hover{
+	background-color:red;
+	transition-duration: 0.4s;
+}
+
+#area{
+	display: none;
+	margin: 0 auto;
+	height: 600px;
+	width: 800px;
+	background-color: rgb(144,238,144);
+
+}
+
+#target{
+	display: none;
+	position: relative;
+	height: 80px;
+	width: 80px;
+	background-color: red;
+}
+
+#apple{
+	position: relative;
+	left: 30px;
+	top: 30px;
+	height: 18px;
+	width: 18px;
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+#result{
+	text-align: center;
+	font-size: 45px;
+	font-family: cursive;
+}
+
+#result p{
+	text-align: center;
+	font-size: 30px;
+	font-family: cursive;
+	font-style: italic;
+}
+
+#result button{
+	font-size: 25px;
+	height: 80px;
+	width: 240px;
+}
+
+#result button:hover{
+	background-color: green;
+	transition-duration: 0.4s;
